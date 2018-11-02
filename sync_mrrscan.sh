@@ -8,7 +8,7 @@ Usage()
 do_upload () {	
 	echo "==> Upload $sync_files to remote on github.io"
 	git remote -v show
-	git add *.list *.sh
+	git add *.list
 	git commit -m "refresh"
 	git push -u origin master
 
@@ -19,37 +19,39 @@ do_download () {
 	git pull -v
 }
 
-if [ -z $1 ]; then
+# check $1
+case "$1" in
+  upload)
+	METHOD=do_upload		
+	;;
+  download)
+	METHOD=do_download
+	;;
+  *)
+	echo "Invalid method"
 	Usage $0
-	exit 3	
-else
+	exit 3
+	;;
+esac			
 
-	case "$1" in
-	  upload)
-		METHOD=do_upload		
-		;;
-	  download)
-		METHOD=do_download
-		;;
-	  *)
+# check $2
+if [ -d $2 ]; then
+	cd $2
+	git remote -v |grep https://github.com/thinkahead123/docs.git
+	if [ $? -ne 0 ]; then
+		echo "Invalid remote of git:$2"
 		Usage $0
 		exit 3
-		;;
-	esac			
-fi
-
-if [ -z $2 ]; then
+	fi
+else
+	echo "Invalid path"
 	Usage $0
 	exit 3	
-else
-	GITPATH=$2
 fi
-
 
 while true
 do
 
-	cd "$GITPATH"
 	$METHOD	
 	
 	sleep 10
