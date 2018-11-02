@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sync_files="nh_scan.list mrr_scan.list sync_mrrscan.sh"
+sync_files=nh_scan.list mrr_scan.list sync_mrrscan.sh
 
 Usage()
 {
@@ -10,7 +10,7 @@ Usage()
 do_upload () {	
 	echo "==> Upload $sync_files to remote on github.io"
 	git remote -v show
-	git add "$sync_files"
+	git add nh_scan.list mrr_scan.list sync_mrrscan.sh
 	git commit -m "refresh"
 	git push -u origin master
 
@@ -18,6 +18,7 @@ do_upload () {
 
 do_download () {
 	echo "==> Download $sync_files from remote on github.io" 
+	git pull -v
 }
 
 if [ -z $1 ]; then
