@@ -1,7 +1,5 @@
 #!/bin/bash
 
-sync_files=nh_scan.list mrr_scan.list sync_mrrscan.sh
-
 Usage()
 {
 	echo "Usage: $0 {upload|download|help} {pathofsync}"
@@ -10,7 +8,7 @@ Usage()
 do_upload () {	
 	echo "==> Upload $sync_files to remote on github.io"
 	git remote -v show
-	git add nh_scan.list mrr_scan.list sync_mrrscan.sh
+	git add *.list *.sh
 	git commit -m "refresh"
 	git push -u origin master
 
