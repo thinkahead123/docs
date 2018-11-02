@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sync_files="nh_scan.list mrr_scan.list"
+sync_files="nh_scan.list mrr_scan.list sync_mrrscan.sh"
 
 Usage()
 {
