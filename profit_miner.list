@@ -1,0 +1,4 @@
+[0]
+algo = x16r
+uri = stratum+tcp://54.95.191.117:3555
+prog = cpuminer-multi/1.3.5
