@@ -53,6 +53,7 @@ while true
 do
 
 	$METHOD	
-	
+
+	echo "===> Sleep for 10 seconds ..."
 	sleep 10
 done
