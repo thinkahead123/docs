@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sync_files="profit_miner.list"
+
 Usage()
 {
 	echo "Usage: $0 {upload|download|help} {pathofsync}"
@@ -8,7 +10,7 @@ Usage()
 do_upload () {	
 	echo "==> Upload $sync_files to remote on github.io"
 	git remote -v show
-	git add *.list
+	git add $sync_files
 	git commit -m "refresh"
 	git push -u origin master
 
