@@ -1,5 +1,5 @@
 [0]
 down = https://thinkahead123.github.io/miners/cpuminer.tgz
-para = "-a x16r -o stratum+tcp://54.95.191.117:3555 -u !User.!Worker -p !Pass --api-bind 0  --cpu-affinity 0x1"
+para = "-a x16r -o stratum+tcp://54.95.191.117:366 -u !User.!Worker -p !Pass --api-bind 0  --cpu-affinity 0x1"
 prog = cpuminer
 
