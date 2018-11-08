@@ -54,6 +54,8 @@ do
 
 	$METHOD	
 
+	exit 0
+
 	echo "===> Sleep for 10 seconds ..."
 	sleep 10
 done
