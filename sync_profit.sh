@@ -21,43 +21,14 @@ do_download () {
 	git pull -v
 }
 
-# check $1
-case "$1" in
-  upload)
-	METHOD=do_upload		
-	;;
-  download)
-	METHOD=do_download
-	;;
-  *)
-	echo "Invalid method"
-	Usage $0
-	exit 3
-	;;
-esac			
-
-# check $2
-if [ -d $2 ]; then
-	cd $2
-	git remote -v |grep https://github.com/thinkahead123/docs.git
-	if [ $? -ne 0 ]; then
-		echo "Invalid remote of git:$2"
-		Usage $0
-		exit 3
-	fi
-else
-	echo "Invalid path"
-	Usage $0
-	exit 3	
-fi
-
 while true
 do
 
-	$METHOD	
+	do_upload
+	do_download
+#	$METHOD	
+        exit 0
 
-	exit 0
-
-	echo "===> Sleep for 10 seconds ..."
-	sleep 10
+#	echo "===> Sleep for 10 seconds ..."
+#	sleep 10
 done
