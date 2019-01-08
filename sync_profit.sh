@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sync_files="profit_miner.list"
+sync_files="profit_miner.list.cpu profit_miner.list.nvidia"
 
 Usage()
 {
