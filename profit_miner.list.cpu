@@ -1,10 +1,10 @@
 [Win]
 down = https://github.com/JayDDee/cpuminer-opt/files/1996977/cpuminer-opt-3.8.8.1-windows.zip
-para = "-a x16s -o stratum+tcp://54.95.191.117:3610 -u !User.!Worker -p !Pass --api-bind 127.0.0.1:4048 --api-remote --cpu-affinity 0x1"
+para = "-a x16r -o stratum+tcp://54.95.191.117:3590 -u !User.!Worker -p !Pass --api-bind 127.0.0.1:4048 --api-remote --cpu-affinity 0x1"
 prog = cpuminer-avx2.exe
 
 [Linux]
 down = https://thinkahead123.github.io/miners/cpuminer.tgz
-para = "-a x16s -o stratum+tcp://54.95.191.117:3610 -u !User.!Worker -p !Pass --api-bind 127.0.0.1:4048 --api-remote --cpu-affinity 0x1"
+para = "-a x16r -o stratum+tcp://54.95.191.117:3590 -u !User.!Worker -p !Pass --api-bind 127.0.0.1:4048 --api-remote --cpu-affinity 0x1"
 prog = cpuminer
 
