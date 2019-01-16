@@ -1,5 +1,5 @@
 [Win]
 down = https://github.com/yuzi-co/miners/releases/download/2018.9/z-enemy.1-20-cuda9.1_x64_v1.zip
-para = "-a bitcore -i 20 -o stratum+tcp://54.95.191.117:3585 -u !User.!Worker -p !Pass -b 4068"
+para = "-a x16r -i 20 -o stratum+tcp://54.95.191.117:3590 -u !User.!Worker -p !Pass -b 4068"
 prog = z-enemy.exe
 
