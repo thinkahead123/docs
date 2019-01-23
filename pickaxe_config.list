@@ -1,2 +1,1 @@
-[{"apiIp":"127.0.0.1","apiPort":4068,"apiType":3,"params":[],"chisel":{"apiPort":0}},{"apiIp":"127.0.0.1","apiPort":3333,"apiType":13,"params":[],"chisel":{"apiPort":0}}]
-
+[{"chisel": {"apiPort": 0}, "params": [], "apiPort": 4048, "apiIp": "127.0.0.1", "apiType": 0}, {"chisel": {"apiPort": 0}, "params": [], "apiPort": 4051, "apiIp": "127.0.0.1", "apiType": 3}]
