@@ -1,8 +1,8 @@
 [Win]
-down = https://github.com/brian112358/avermore-miner/releases/download/v1.4.1/avermore-v1.4.1-windows.zip
-para = "-k x16r -g 2 -w 64 -X 64 -o stratum+tcp://54.95.191.117:3590 -u !User.!Worker -p !Pass --api-listen --api-port 4058"
-prog = avermore-windows/sgminer.exe
-algo = x16r
-miner = A-Avermore-1.4.1
+down = https://github.com/yuzi-co/miners/releases/download/2018.11/PhoenixMiner_4.0b_Windows.zip
+para = "-pool stratum+tcp://eth.f2pool.com:8008 -wal !User.!Worker -pass !Pass -cdmport 4058 -amd"
+prog = PhoenixMiner_4.0b_Windows\PhoenixMiner.exe
+algo = ethash
+miner = A-Phoenix-4.0b
 
 
