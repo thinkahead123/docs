@@ -1,7 +1,7 @@
 [Win]
 down = https://github.com/yuzi-co/miners/releases/download/2018.11/PhoenixMiner_4.0b_Windows.zip
 para = "-pool stratum+tcp://eth.f2pool.com:8008 -wal !User.!Worker -pass !Pass -cdmport 4058 -amd"
-prog = PhoenixMiner_4.0b_Windows\PhoenixMiner.exe
+prog = PhoenixMiner.exe
 algo = ethash
 miner = A-Phoenix-4.0b
 
