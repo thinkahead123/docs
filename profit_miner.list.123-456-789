@@ -1,0 +1,9 @@
+[{
+    "type": "Win",
+    "down": "https://github.com/yuzi-co/miners/releases/download/2018.10/z-enemy.1-22-cuda9.1_x64.zip",
+    "para": "-a xevan -i 20 -i 20 -o stratum+tcp://!Server:3592 -u !User.!Worker -p !Pass -b 4051",
+    "prog": "z-enemy.exe",
+    "algo": "xevan",
+    "miner": "N-zEnemyCUDA91-1.22"
+}]
+
