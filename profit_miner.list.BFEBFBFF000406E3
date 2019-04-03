@@ -1,7 +1,7 @@
 [{
     "type": "Win",
     "down": "https://www.bminercontent.com/releases/bminer-lite-v14.3.0-cbb8683-amd64.zip",
-    "para": "-uri cuckaroo29 -logfile ../log/bminer.log -o stratum+tcp://!Server:3660 -u !User.!Worker -p !Pass -b 4049",
+    "para": "-logfile ../log/bminer.log -uri cuckaroo29://!User.!Worker:!Pass@!Server:3660 -api 127.0.0.1:4049",
     "prog": "bminer-lite-v14.3.0-cbb8683/bminer.exe",
     "algo": "cuckaroo29",
     "miner": "N-Bminer-14.3"
