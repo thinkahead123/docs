@@ -1,7 +1,7 @@
 [{
     "type": "Win",
     "down": "https://github.com/brian112358/avermore-miner/releases/download/v1.4.1/avermore-v1.4.1-windows.zip",
-    "para": "-k x16r  -w 64 -X 64 -o stratum+tcp://!Server:3590 -u !User.!Worker -p !Pass --api-listen --api-port 4058 -d 0-3",
+    "para": "-k x16r  -w 64 -X 64 -o stratum+tcp://!Server:3590 -u !User.!Worker -p !Pass --api-listen --api-port 4058",
     "prog": "avermore-windows/sgminer.exe",
     "algo": "x16r",
     "miner": "A-Avermore-1.4.1"
