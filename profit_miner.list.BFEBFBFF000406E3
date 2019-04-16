@@ -1,10 +1,8 @@
 [{
     "type": "Win",
     "down": "https://github.com/yuzi-co/miners/releases/download/2019.01/PhoenixMiner_4.1c_Windows.zip",
-    "para": "-pool stratum+tcp://13.230.236.25:3565 -wal 0xf809398CCD673899B05ab93B74C15552352bC1C8 -epsw !Pass -eworker MinerxTester -cdmport 4063 -amd -logfile A-Phoenix-4.1c.log -logdir ./miners/log/ -gpus 1234",
+    "para": "-pool stratum+tcp://!Server:3565 -wal 0xf809398CCD673899B05ab93B74C15552352bC1C8 -epsw !Pass -eworker !Worker -cdmport 4063 -amd -gpus 1234 -log 2 -logfile phoenixminer.log -logdir ./miners/log/",
     "prog": "PhoenixMiner_4.1c_Windows/PhoenixMiner.exe",
     "algo": "ethash",
     "miner": "A-Phoenix-4.1c"
-    "comment": "tcp accerate with new site"
 }]
-
