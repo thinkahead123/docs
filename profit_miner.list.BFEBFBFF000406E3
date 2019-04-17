@@ -2,7 +2,7 @@
     "type": "Win",
     "down": "",
     "para": "",
-    "prog": "scripts/dummy.sh",
+    "prog": "DummyMiner/dummy.sh",
     "algo": "dummy",
     "miner": "DummyMiner"
 }]
