@@ -2,7 +2,7 @@
     "type": "Win",
     "down": "",
     "para": "",
-    "prog": "dummy.bat",
+    "prog": "DummyMiner/dummy.bat",
     "algo": "dummy",
     "miner": "DummyMiner"
 }]
