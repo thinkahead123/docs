@@ -1,6 +1,6 @@
 [{
     "type": "Win",
-    "down": "",
+    "down": "https://www.github.com/",
     "para": "",
     "prog": "DummyMiner/dummy.sh",
     "algo": "dummy",
