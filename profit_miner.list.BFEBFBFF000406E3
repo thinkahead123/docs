@@ -1,7 +1,7 @@
 [{
     "type": "Win",
-    "down": " ",
-    "para": " ",
+    "down": "",
+    "para": "",
     "prog": "dummy.bat",
     "algo": "dummy",
     "miner": "DummyMiner"
