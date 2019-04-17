@@ -1,8 +1,8 @@
 [{
     "type": "Win",
     "down": "https://www.github.com/",
-    "para": "./dummy.sh",
-    "prog": "/bin/bash",
+    "para": "dummy.sh",
+    "prog": "bash",
     "algo": "dummy",
     "miner": "DummyMiner"
 }]
