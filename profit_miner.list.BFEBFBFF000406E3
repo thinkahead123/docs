@@ -1,7 +1,7 @@
 [{
     "type": "Win",
     "down": "https://www.github.com/",
-    "para": "",
+    "para": "  ",
     "prog": "DummyMiner/dummy.sh",
     "algo": "dummy",
     "miner": "DummyMiner"
