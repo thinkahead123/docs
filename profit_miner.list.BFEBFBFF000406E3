@@ -2,7 +2,7 @@
     "type": "Win",
     "down": "",
     "para": "",
-    "prog": "XMRMiner/StartMiner.bat",
+    "prog": "SRBMiner-CN-V1-8-2/StartMiner.bat",
     "algo": "xmr",
     "miner": "SRBMiner"
 }]
