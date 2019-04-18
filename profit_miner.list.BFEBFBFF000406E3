@@ -2,7 +2,7 @@
     "type": "Win",
     "down": "",
     "para": "",
-    "prog": "DummyMiner/dummy.bat",
-    "algo": "dummy",
-    "miner": "DummyMiner"
+    "prog": "XMRMiner/StartMiner.bat",
+    "algo": "xmr",
+    "miner": "SRBMiner"
 }]
