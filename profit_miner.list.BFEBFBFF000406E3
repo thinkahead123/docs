@@ -1,8 +1,8 @@
 [{
     "type": "Win",
-    "down": "",
-    "para": "",
-    "prog": "SRBMiner-CN-V1-8-2/StartMiner.bat",
-    "algo": "xmr",
-    "miner": "SRBMiner"
+    "down": "https://github.com/yuzi-co/miners/releases/download/2019.03/PhoenixMiner_4.2c_Windows.zip",
+    "para": "-pool stratum+tcp://172.105.211.250:19999 -wal 0x71Cd9b8ABcF857bbb85b850699E1b8089396C7Cb/MinerxTester -epsw !Pass -eworker MinerxTester -cdmport 4063 -amd -logfile A-Phoenix-4.2c.log -logdir ../../log/ -gpus 1234",
+    "prog": "PhoenixMiner_4.2c_Windows/PhoenixMiner.exe",
+    "algo": "ethash",
+    "miner": "A-Phoenix-4.2c"
 }]
