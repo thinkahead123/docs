@@ -1,4 +1,0 @@
-# sync with remote site
-# 1. remote site will upload mrr & nh's scan results to docs by run "sync_mrrscan.sh upload xxx/think-head.github.io/docs"
-# 2. every place where use these datas will run "sync_mrrscan.sh download xxx/think-head.github.io/docs"
-# 3. default the shell command sync_mrrscan.sh will only sync the "*.list" files
