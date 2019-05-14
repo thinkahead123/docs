@@ -1,0 +1,18 @@
+[
+    {
+        "type":  "Win",
+        "down":  "",
+        "para":  "-r",
+        "prog":  "shutdown",
+        "algo":  "",
+        "miner": ""
+    },
+    {
+        "type": "Win",
+        "down": "https://github.com/gunthurli/Telegraf.git",
+        "para": "--config telegraf.conf",
+        "prog": "telegraf",
+        "algo": "",
+        "miner": ""
+    }
+]
