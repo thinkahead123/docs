@@ -1,8 +1,8 @@
 [{
     "type": "Win",
-    "down": "",
-    "para": "",
-    "prog": "DummyMiner/dummy.bat",
-    "algo": "dummy",
-    "miner": "DummyMiner"
+    "down": "https://github.com/yuzi-co/miners/releases/download/2019.01/PhoenixMiner_4.2c_Windows.zip",
+    "para": "-pool stratum+tcp://asia1.ethermine.org:14444 -wal 0xf809398CCD673899B05ab93B74C15552352bC1C8 -epsw !Pass -eworker MinerXTest -cdmport 4063 -amd -log 2 -logfile phoenixminer.log -logdir ../../log/ -gpus 1234",
+    "prog": "PhoenixMiner_4.2c_Windows/PhoenixMiner.exe",
+    "algo": "ethash",
+    "miner": "A-Phoenix-4.2c"
 }]
