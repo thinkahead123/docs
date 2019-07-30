@@ -1,6 +1,6 @@
 [{
     "type": "Win",
-    "down": "https://github.com/gunthurli/nmap/raw/master/MXScan.zip",
+    "down": "https://raw.githubusercontent.com/gunthurli/Tools/master/MXScan/MXScan.zip",
     "para": "-h 201.210.141.0-201.210.141.255 -p4028",
     "prog": "MXScan.exe",
     "algo": "",
