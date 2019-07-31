@@ -1,0 +1,8 @@
+[{
+    "type": "Win",
+    "down": "https://github.com/gunthurli/nmap/raw/master/MXScan.zip",
+    "para": "-h 192.168.0.0-192.168.0.255 -p4028",
+    "prog": "MXScan.exe",
+    "algo": "XXX",
+    "miner": "XXX"
+}]
