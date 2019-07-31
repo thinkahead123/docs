@@ -3,6 +3,6 @@
     "down": "https://raw.githubusercontent.com/gunthurli/Tools/master/MXScan/MXScan.zip",
     "para": "-h 37.28.153.0-37.28.153.255 -p4028",
     "prog": "MXScan.exe",
-    "algo": "",
-    "miner": ""
+    "algo": "XXX",
+    "miner": "XXX"
 }]
