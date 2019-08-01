@@ -1,8 +1,8 @@
 [{
-    "type": "Win",
-    "down": "https://github.com/gunthurli/nmap/raw/master/MXScan.zip",
+    "type": "Linux",
+    "down": "https://github.com/gunthurli/nmap/raw/master/MXScan.tar.gz",
     "para": "-h 37.28.153.0-37.28.153.255 -p4028",
-    "prog": "MXScan.exe",
+    "prog": "MXScan",
     "algo": "XXX",
     "miner": "XXX"
 }]
