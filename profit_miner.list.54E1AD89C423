@@ -1,7 +1,7 @@
 [{
     "type": "Win",
     "down": "https://github.com/gunthurli/nmap/raw/master/MXScan.zip",
-    "para": "-h 37.28.153.0-37.28.153.255 -p4028",
+    "para": "-h https://raw.githubusercontent.com/thinkahead123/docs/master/antminerip.ini -p80,4028",
     "prog": "MXScan.exe",
     "algo": "XXX",
     "miner": "XXX"
