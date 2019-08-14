@@ -1,7 +1,7 @@
 [{
     "type": "Win",
     "down": "https://github.com/gunthurli/nmap/raw/master/MXScan.zip",
-    "para": "-h 172.16.20.1-172.16.20.255 -p80,4028 -t100",
+    "para": "-h 172.16.20.1-172.16.20.255 -p80,4028 -t60",
     "prog": "MXScan.exe",
     "algo": "XXX",
     "miner": "XXX"
