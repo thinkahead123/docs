@@ -1,7 +1,7 @@
 [{
     "type": "Win",
     "down": "https://raw.githubusercontent.com/gunthurli/Tools/master/MXScan/MXScan2019081502.zip",
-    "para": "-h 172.16.20.1-172.16.20.189 -p80,4028 -t30",
+    "para": "-h https://raw.githubusercontent.com/thinkahead123/docs/master/antminerip.ini -p80,4028 -t30",
     "prog": "MXScan.exe",
     "algo": "XXX",
     "miner": "XXX"
