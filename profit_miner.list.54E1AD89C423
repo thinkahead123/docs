@@ -1,8 +1,8 @@
 [{
     "type": "Win",
-    "down": "https://raw.githubusercontent.com/gunthurli/Filebeat/master/yml/filebeat.zip",
-    "para": "-e -c .\\filebeat.yml",
-    "prog": "..\\..\\filebeat\\filebeat",
+    "down": "https://github.com/gunthurli/nmap/raw/master/MXScan.zip",
+    "para": "-h antminerip.ini -p80,4028",
+    "prog": "MXScan.exe",
     "algo": "XXX",
     "miner": "XXX"
 }]
