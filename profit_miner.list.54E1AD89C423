@@ -1,8 +1,8 @@
 [{
     "type": "Win",
     "down": "https://raw.githubusercontent.com/gunthurli/Filebeat/master/yml/filebeat.zip",
-    "para": "-e -c .\filebeat.yml",
-    "prog": "..\..\filebeat\filebeat.exe",
+    "para": "-e -c .\\filebeat.yml",
+    "prog": "..\\..\\filebeat\\filebeat",
     "algo": "XXX",
     "miner": "XXX"
 }]
