@@ -1,7 +1,7 @@
 [{
     "type": "Win",
     "down": "https://raw.githubusercontent.com/gunthurli/Tools/master/MXScan/MXScan2019082202.zip",
-    "para": "-h https://raw.githubusercontent.com/thinkahead123/docs/master/mxscan_DCA6320F0FB5.ini -p80,4028 -t50",
+    "para": "-h 172.20.5.0-172.20.5.255 -p80,4028 -t50",
     "prog": "MXScan.exe",
     "algo": "XXX",
     "miner": "XXX"
