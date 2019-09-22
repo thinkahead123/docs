@@ -1,8 +1,0 @@
-[{
-    "type": "Linux",
-    "down": "https://github.com/gunthurli/nmap/raw/master/MXScan.tar.gz",
-    "para": "-h antminerip.ini -p80,4028 -t50",
-    "prog": "MXScan",
-    "algo": "XXX",
-    "miner": "XXX"
-}]
