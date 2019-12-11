@@ -1,7 +1,7 @@
 [{
     "type": "Linux",
     "down": "https://github.com/gunthurli/nmap/raw/master/MXScan.tar.gz",
-    "para": "-h 10.3.50,10.3.51,10.3.52,10.3.53 -p80,4028 -t20 -m200 -T1200",
+    "para": "-h antminerip.csv -p80,4028 -t20 -m200 -T1200",
     "prog": "MXScan",
     "algo": "XXX",
     "miner": "XXX"
