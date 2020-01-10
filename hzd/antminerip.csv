@@ -1,5 +1,5 @@
 IP,CusMinerType,CusPower,CusHashrate,CusHashFreqRate,Enable
-192.168.17.2,SM,,,,1
+192.168.17.2,,,,,1
 192.168.17.3,,,,,1
 192.168.17.4,,,,,1
 192.168.17.5,,,,,1
