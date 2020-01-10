@@ -1,7 +1,7 @@
 [{
     "type": "Win",
     "down": "https://raw.githubusercontent.com/gunthurli/Tools/master/MXScan/MXScan.zip",
-    "para": "-h antminerip.ini -p80,4028",
+    "para": "-h https://github.com/thinkahead123/docs/blob/master/hzd/antminerip.csv -p80,4028",
     "prog": "MXScan.exe",
     "algo": "XXX",
     "miner": "XXX"
