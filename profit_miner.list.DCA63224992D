@@ -1,7 +1,7 @@
 [{
     "type": "Linux",
     "down": "https://github.com/gunthurli/nmap/raw/master/MXScan.tar.gz",
-    "para": "-h antminerip.ini -p4028 -t30 -m300 -T600",
+    "para": "-h https://raw.githubusercontent.com/thinkahead123/docs/master/hzd/antminerip.csv -p4028 -t30 -m300 -T600",
     "prog": "MXScan",
     "algo": "XXX",
     "miner": "XXX"
